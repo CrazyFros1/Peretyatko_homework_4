@@ -12,7 +12,7 @@
     padding: top;
     
 }
-.header {
+header {
     width: 1000px;
     height: 420px;
 }
@@ -37,7 +37,7 @@
     top: 11px;
 }
 .contacs, .contacs1 {
-    padding-top: 5px;
+    padding-top: 4px;
 }
 .contacs1 {
     font-weight: bolder;
@@ -72,28 +72,37 @@
 }
 .sflag1{
     padding-left: 0px;
-    margin-left: 5px;
+    margin-left: 6px;
 }
 .sflag2 {
     padding-left: 0px;
-    margin-left: 17px;
+    margin-left: 18px;
 }
 .sflag3 {
-    padding-left: 0px;
-    padding-left: 18px;
-
+    padding-left: 12px;
 }
 .sflag4{
 	padding-right: 0px;
-    padding-left: 15px;
+    padding-left: 13px;
 }
 
 .sflag5 {
     padding-left: 0px;
     padding-right: 0px;
-    margin-left: 12px;
+    margin-left: 16px;
  }
 .sflag6{
-	padding-left: 0px;
-    margin-left: 6px;
+    padding-left: 0px;
+    margin-left: 2px;
 }
+.fg {
+    color: #128aa7;
+}
+menu {
+   width: 1018px;
+    height: 30px;
+    background-color: #343434;
+}
+.main_menu {
+    text-decoration: none;
+     }
