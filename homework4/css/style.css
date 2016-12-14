@@ -120,7 +120,7 @@ menu {
 }
 .boxinfo {
     width: 236px;
-    height: 536px;
+    height: 534px;
     background-color: #edeef0;
     position: absolute;
     top: 457px;
@@ -139,12 +139,12 @@ p {
 }
 .boxnews {
     width: 236px;
-    height: 536px;
     background-color: #edeef0;
     position: absolute;
-    top: 457px;
+    height: 534px;
     border-left: 1px solid #c7cacf;
-    right: 442px;
+    right: 443px;
+    top: 457px;
 }
 footer {
     width: 1905px;
@@ -175,7 +175,7 @@ ul.cssmenu li {
 .main_menu .drop {
 	position: absolute;
 	top: 34px;
-	width: 220px;
+	width: 180px;
 	background: #323232;
 	display: none;
 	
