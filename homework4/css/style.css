@@ -1,6 +1,6 @@
+
 .box {
     background-image: url(img/background.png);
-	position: absolute;
 	height: 100%;
 	width: 100%;
 }
@@ -10,6 +10,7 @@
     margin: 0 auto;
     box-shadow: 0 0 2px;
     padding: top;
+    box-shadow: 0px 2px 5px 1px #414141;
     
 }
 header {
@@ -23,7 +24,6 @@ header {
     left: 482px;
 
 }
-
 .photo {
     position:absolute;
     top: 182px;
@@ -85,6 +85,10 @@ header {
 	padding-right: 0px;
     padding-left: 13px;
 }
+.bgleft {
+    width:px;
+    height: 1000px
+}
 
 .sflag5 {
     padding-left: 0px;
@@ -99,10 +103,97 @@ header {
     color: #128aa7;
 }
 menu {
-   width: 1018px;
-    height: 30px;
+    width: 1018px;
+    height: 34px;
     background-color: #343434;
+    box-shadow: 0px 2px 5px 1px #414141;
+    z-index: 2;
+    border-bottom: 0.3px solid #000;
 }
-.main_menu {
+.main_menu, .menu, .s {
     text-decoration: none;
+    color: white;
+}
+.main_menu li {
+    float: left;
+	position: relative;
+}
+.boxinfo {
+    width: 236px;
+    height: 536px;
+    background-color: #edeef0;
+    position: absolute;
+    top: 455px;
+    border-right: 1px solid #c7cacf;
      }
+h1 {
+    font-size: 20px;
+    color: #424c43;
+    font-weight: bolder;
+    text-align:  center;
+}
+p {
+    text-align:  center;
+    font-size: 18px;
+	line-height: 30px;
+}
+.boxnews {
+    width: 236px;
+    height: 536px;
+    background-color: #edeef0;
+    position: absolute;
+    top: 455px;
+    border-left: 1px solid #c7cacf;
+    right: 442px;
+}
+footer {
+    width: 1905px;
+    height: 31px;
+    background-color: #0c739f;
+    float: right;
+}
+.c {
+    font-size: 12px;
+    color: #cee3ec;
+    font-size: 15px;
+}
+ul.cssmenu li {
+	float: left;
+	position: relative;
+}
+.main_menu li a {
+	color: #fff;
+	padding: 0 42px;
+	text-decoration: none;
+	line-height: 40px;
+	display: block;
+	height: 45px;
+	font-size: 15px;
+    font-family: "Tahoma";
+}
+
+.main_menu .drop {
+	position: absolute;
+	top: 34px;
+	width: 220px;
+	background: #323232;
+	display: none;
+	
+}
+.drop li{
+	width: 100%;
+	height: 35px;
+
+}
+.drop {
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+	border: 1px solid black;
+}
+.drop li a{
+	line-height: 35px;
+	height: 50px;
+    
+}
+.main_menu li:hover .drop{
+	display: block;
+    z-index: 2; }
