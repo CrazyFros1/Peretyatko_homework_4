@@ -1,6 +1,6 @@
 
 .box {
-    background-image: url(img/background.png);
+    background-image: url(C:/homework4/homework4/img/1.jpg);
 	height: 100%;
 	width: 100%;
 }
@@ -8,26 +8,24 @@
     width: 1018px;
     height: 991px;
     margin: 0 auto;
-    box-shadow: 0 0 2px;
-    padding: top;
     box-shadow: 0px 2px 5px 1px #414141;
-    
 }
 header {
-    width: 1000px;
+    width: 1018px;
     height: 420px;
+    background-color: white;
 }
 
 .logo {
     position:absolute;
     top: 18px;
     left: 482px;
-
 }
 .photo {
-    position:absolute;
-    top: 182px;
+    position: absolute;
+    top: 175px;
     width: 1018px;
+    height: 250px;
 }
 .main_contacs {
     color: #41a1b9;
@@ -55,7 +53,7 @@ header {
 .flag {
     position: absolute;
     left: 1090px;
-    top: 122px;
+    top: 116px;
 }
 .sflag1, .sflag2, .sflag3, .sflag4, .sflag5, .sflag6 {
     font-size: 11px;
@@ -66,9 +64,9 @@ header {
     color: #0C75A0;
 }
 .main_sflag {
-  position: absolute;
+    position: absolute;
     left: 1090px;
-    top: 161px;
+    top: 157px;
 }
 .sflag1{
     padding-left: 0px;
@@ -125,7 +123,7 @@ menu {
     position: absolute;
     top: 457px;
     border-right: 1px solid #c7cacf;
-     }
+}
 h1 {
     font-size: 20px;
     color: #424c43;
@@ -145,12 +143,6 @@ p {
     border-left: 1px solid #c7cacf;
     right: 443px;
     top: 457px;
-}
-footer {
-    width: 1905px;
-    height: 31px;
-    background-color: #0c739f;
-    float: right;
 }
 .c {
     font-size: 12px;
@@ -175,15 +167,13 @@ ul.cssmenu li {
 .main_menu .drop {
 	position: absolute;
 	top: 34px;
-	width: 180px;
+    width: 188px;
 	background: #323232;
 	display: none;
-	
 }
 .drop li{
 	width: 100%;
 	height: 35px;
-
 }
 .drop {
 	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
@@ -192,8 +182,16 @@ ul.cssmenu li {
 .drop li a{
 	line-height: 35px;
 	height: 50px;
-    
 }
 .main_menu li:hover .drop{
 	display: block;
-    z-index: 2; }
+    z-index: 2; 
+}
+.center { 
+    width: 544px;
+    height: 534px;
+    background-color: white;
+    position: absolute;
+    right: 680px;
+    top: 457px;  
+}
